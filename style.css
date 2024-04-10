@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(216, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.drum-kit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgb(60, 58, 58);
+    color: rgb(28, 28, 28);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+hgroup{
+    padding: 20px;
+    width: 30%;
+}
+div{
+    width: 70%;
+}
+#kick {
+    background-color: palevioletred;
+}
+
+#snare {
+    background-color: palegreen;
+}
+
+#hihat {
+    background-color: paleturquoise;
+}
+
+#tom {
+    background-color: peachpuff;
+}
+
+#crash {
+    background-color: plum;
+}
+
